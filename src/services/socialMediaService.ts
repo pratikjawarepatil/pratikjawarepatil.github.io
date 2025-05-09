@@ -28,8 +28,8 @@ export const fetchSocialMediaStats = async (): Promise<SocialMediaStats> => {
   // Instagram is still mocked
   return {
     instagram: {
-      followers: 256000,
-      posts: 350,
+      followers: 258000,
+      posts: 359,
       engagement: 80.7
     },
     youtube
