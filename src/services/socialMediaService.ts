@@ -4,7 +4,7 @@ export const fetchSocialMediaStats = async (): Promise<SocialMediaStats> => {
   const youtubeApiUrl = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCfxMmGt0QZbJYCwrdUANdYA&key=AIzaSyC0Ex684aUCXbNtKL2B7FmazCiLaeYi9cM';
 
   let youtube = {
-    subscribers: 78400,
+    subscribers: 98400,
     videos: 352,
     views: 37466404
   };
@@ -28,7 +28,7 @@ export const fetchSocialMediaStats = async (): Promise<SocialMediaStats> => {
   // Instagram is still mocked
   return {
     instagram: {
-      followers: 258000,
+      followers: 315000,
       posts: 359,
       engagement: 80.7
     },
